@@ -33,6 +33,7 @@ class AbstractPhp < Formula
     depends_on 'freetds' if build.include?('with-mssql')
     depends_on 'freetype'
     depends_on 'gettext'
+    depends_on 'igbinary'
     depends_on 'gmp' => :optional
     depends_on 'icu4c'
     depends_on 'imap-uw' if build.include?('with-imap')
